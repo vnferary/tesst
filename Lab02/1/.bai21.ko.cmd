@@ -1,0 +1,1 @@
+cmd_/home/thai/Lab/Lab02/1/bai21.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/thai/Lab/Lab02/1/bai21.ko /home/thai/Lab/Lab02/1/bai21.o /home/thai/Lab/Lab02/1/bai21.mod.o ;  true
